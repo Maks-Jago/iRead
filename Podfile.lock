@@ -1,0 +1,106 @@
+PODS:
+  - AEXML (4.5.0)
+  - Alamofire (5.6.1)
+  - CMPopTipView (2.3.2)
+  - DTCoreText (1.0.0):
+    - DTCoreText/Accessibility (= 1.0.0)
+    - DTCoreText/Debug (= 1.0.0)
+    - DTCoreText/HTMLParsing (= 1.0.0)
+    - DTCoreText/HTMLWriting (= 1.0.0)
+    - DTCoreText/Layouting (= 1.0.0)
+    - DTCoreText/UI (= 1.0.0)
+    - DTCoreText/Utils (= 1.0.0)
+    - DTFoundation
+  - DTCoreText/Accessibility (1.0.0):
+    - DTFoundation
+  - DTCoreText/Debug (1.0.0):
+    - DTFoundation
+  - DTCoreText/HTMLParsing (1.0.0):
+    - DTFoundation
+  - DTCoreText/HTMLWriting (1.0.0):
+    - DTFoundation
+  - DTCoreText/Layouting (1.0.0):
+    - DTFoundation
+  - DTCoreText/UI (1.0.0):
+    - DTFoundation
+  - DTCoreText/Utils (1.0.0):
+    - DTFoundation
+  - DTFoundation (1.0.0):
+    - DTFoundation/DTHTMLParser (= 1.0.0)
+  - DTFoundation/DTHTMLParser (1.0.0)
+  - FLEX (4.1.1)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - GCDWebServer/Core (3.5.4)
+  - GCDWebServer/WebUploader (3.5.4):
+    - GCDWebServer/Core
+  - IRHexColor (0.0.5)
+  - PKHUD (5.3.0)
+  - ReachabilitySwift (5.0.0)
+  - SGQRCode (3.5.1)
+  - SnapKit (5.0.1)
+  - SSZipArchive (2.4.3)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - AEXML (~> 4.5.0)
+  - Alamofire (~> 5.5)
+  - CMPopTipView (~> 2.3.2)
+  - DTCoreText (from `./ThirdPartyLibs/DTCoreText`)
+  - DTFoundation (from `./ThirdPartyLibs/DTFoundation`)
+  - FLEX (~> 4.1.1)
+  - FMDB (~> 2.7.5)
+  - GCDWebServer/WebUploader (from `./ThirdPartyLibs/GCDWebServer`)
+  - IRHexColor (~> 0.0.5)
+  - PKHUD (~> 5.3.0)
+  - ReachabilitySwift (~> 5.0.0)
+  - SGQRCode (from `./ThirdPartyLibs/SGQRCode`)
+  - SnapKit (~> 5.0.1)
+  - SSZipArchive (~> 2.4.2)
+  - SVProgressHUD (~> 2.2.5)
+
+SPEC REPOS:
+  trunk:
+    - AEXML
+    - Alamofire
+    - CMPopTipView
+    - FLEX
+    - FMDB
+    - IRHexColor
+    - PKHUD
+    - ReachabilitySwift
+    - SnapKit
+    - SSZipArchive
+    - SVProgressHUD
+
+EXTERNAL SOURCES:
+  DTCoreText:
+    :path: "./ThirdPartyLibs/DTCoreText"
+  DTFoundation:
+    :path: "./ThirdPartyLibs/DTFoundation"
+  GCDWebServer:
+    :path: "./ThirdPartyLibs/GCDWebServer"
+  SGQRCode:
+    :path: "./ThirdPartyLibs/SGQRCode"
+
+SPEC CHECKSUMS:
+  AEXML: 0e8f1d874fa033ca6b3909452a8bc362faad46e6
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  CMPopTipView: 2d56ef53e8e739c4e63ad97a5a88b97712b46c7b
+  DTCoreText: 614f7426823989c3dabe9127fc674123f0049c01
+  DTFoundation: 2cd4cbe869518fc73b6d6a5d4a8e0daaa7392931
+  FLEX: 81096107977a09836eb440173010ceeef01105d6
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  GCDWebServer: f5590602d75d912fb63660e57c4939d57b8fe85b
+  IRHexColor: f699a6202cd38f40754d0bc2bfc1146ccd40cdac
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SGQRCode: 65d6170ddcf3feecc6e2f3601aac78ad93e56589
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: fe10de2ab774c73521d71f50fb92f8fea3e96c55
+
+COCOAPODS: 1.11.2
