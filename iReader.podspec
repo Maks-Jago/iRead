@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/Maks-Jago/iRead"
   s.source       = { :git => "https://github.com/Maks-Jago/iRead", :tag => s.version.to_s }
   s.platform      = :ios, '13.0'
+  s.swift_version = '5.6'
 
   s.source_files = [
     'iRead/Source/*.{h,swift}',
